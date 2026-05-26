@@ -11,6 +11,7 @@
             <a href="{{ route('post', $post->slug) }}">
                 {{ $post->title }}
             </a>
+            <span> {{ $post->user->name }} </span>
         </p>
     @endforeach
 
