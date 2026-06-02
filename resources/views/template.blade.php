@@ -25,7 +25,22 @@
                 <a href="{{ route('login') }}">Login</a>
             @endauth
         </header>
+
+        <div class="opacity-60 h-px mb-8" style="
+            background: linear-gradient(to right,
+            rgba(800, 800, 800, 0) 0%,
+            rgba(800, 800, 800, 1) 30%,
+            rgba(800, 800, 800, 1) 70%,
+            rgba(800, 800, 800, 0) 100%,
+        );
+        ">
+
+        </div>
         @yield('content')
+        <p class="py-16">
+            <img src="{{ asset('img/logo.png') }}" class="h-12 mx-auto">
+        </p>
+
     </div>
 </body>
 </html>
