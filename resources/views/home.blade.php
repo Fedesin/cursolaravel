@@ -1,8 +1,11 @@
 @extends('template')
 
 @section('content')
-    <div>
-        <!-- Destacado -->
+    <div class="relative bg-gray-200 px-20 py-16 rounded-lg mb-8 overflow-hidden">
+        <span class="text-xs uppercase text-gray-700 bg-gray-400 rounded-full px-2 py-1">Programación</span>
+        <h1 class="text-3xl text-black mt-4">Blog</h1>
+        <p class="text-sm text-gray-400 mt-2">Proyecto de desarrollo web para profesionales</p>
+        <img src="{{ asset('img/dev.png') }}" class="absolute -right-20 -bottom-20 opacity-20">
     </div>
 
     <div class="px-4">
